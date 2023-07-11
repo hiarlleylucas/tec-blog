@@ -1,0 +1,120 @@
+/*LIMPAR FORMATAÇÕES PADRÕES*/
+* {margin: 0;
+    padding: 0;
+ }
+ 
+ body{ font-size: 1em;
+       font-family:"Trebuchet MS", Helvetica, sans-serif ;
+       background: #e6e6e6;
+         }
+ 
+ #area-cabecalho{ background-color: #FFBF00;
+                 padding: 15px;
+                 text-align: center;
+             }
+ 
+ #area-logo{padding: 10px;}
+ 
+ #area-menu{padding: 10px;}
+ 
+ h1{ color: #4e4e4e;
+     font-size: 2.5em;}
+ 
+ .branco{color: white;}
+ 
+ a{text-decoration: none;}
+ 
+ 
+ .botaopost > a:link 
+     {color: #FFBF00;
+     text-decoration: none;
+     padding: 10px 12px;
+     }
+ 
+ 
+ .botaolateral1 > a:link 
+     {color: #FFBF00;
+     text-decoration: none;
+ 
+     }
+ 
+ .botaolateral2 > a:link 
+     {color: #FFBF00;
+     text-decoration: none;
+     margin-left: 5px;
+     }
+ 
+ 
+ a:visited{color: #FFBF00;
+             padding: 10px 12px;}
+ 
+ a:hover{color:white;
+         background: #FFBF00;
+         text-decoration: underline;}
+ 
+ #area-menu a:link{color: white;
+         text-decoration: none;
+         padding: 10px 12px;}
+ 
+ #area-menu a:visited{color: white;
+         padding: 10px 12px;}
+ 
+ #area-menu a:hover{color:#FFBF00;
+         background: white;
+         text-decoration: none;
+     }
+ 
+ #area-principal{width: 50%;
+                 margin: 0px 0px 0px 40px;
+                 padding: 15px;
+                 display: inline-block;
+                 justify-content: center;
+             }
+ 
+ #area-postagens{ width: 100%;
+                         background: white;
+                         }
+ 
+ .postagem{ padding: 20px;
+                 margin-bottom: 20px ;
+                 background: white ;}
+ 
+ h2{ color: #FFBF00;
+ 
+ }	
+ 
+ .data-postagem{ font-size: 0.8em;
+                         border-bottom: 1px solid #f4f4f4;
+                         margin-bottom: 15px;
+                         padding-bottom: 15px;
+                         display: block;}
+ 
+ #area-lateral{
+     display: block;
+     flex-direction: column;
+     width: 12%;
+     float: right;
+     min-width: 200px;
+     margin-top: 15px;
+     margin-right: 200px;
+ 
+                     }			
+ 
+ .conteudo-lateral{ background: white;
+                             padding: 10px;
+                             margin-bottom: 20px;}
+ 
+ h3{ color: #565656;
+         background: #CCC;
+         padding: 5px;}
+ 
+ .texto-lateral{ font-size: 0.8em;
+                         padding: 5px;}
+ 
+ #rodape{	 display: flex;
+             justify-content: center;
+             text-align: center;
+             padding: 15px;
+             background: #CCC;
+           
+         }
